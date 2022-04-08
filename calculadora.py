@@ -15,3 +15,6 @@ if operacion == '1':
 
 elif operacion == '2':
     print("La resta es ",resta(n1,n2))
+
+else:
+    print("Opcion incorrecta")
