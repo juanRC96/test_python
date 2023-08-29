@@ -4,6 +4,6 @@ n3 = int(input("Nota 3: "))
 
 prom = (n1 + n2 + n3)/3
 
-cadena_formato = f"Notas: {n1} {n2} {n3} ==> Promedio: {prom}"
+cadena_formato = f"Notas: {n1} {n2} {n3} ==> Promedio: {prom:.3}"
 
 print(cadena_formato)
